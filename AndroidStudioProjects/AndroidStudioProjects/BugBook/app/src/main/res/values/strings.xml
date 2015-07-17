@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bug Book</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">settings</string>
+    <string name="title_activity_post_bugs">Post</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="PROJECT_NAME">PROJECT NAME</string>
+    <string name="TESTER_ID">TESTER ID</string>
+    <string name="TESTER_ID_VALUE">BMSCE-IS-016</string>
+</resources>

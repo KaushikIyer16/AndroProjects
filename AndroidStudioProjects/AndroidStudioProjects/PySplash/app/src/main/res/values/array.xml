@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nav_draw_items">
+        <item>General Discussion</item>
+        <item>Assignment Discussion</item>
+        <item>About Us</item>
+    </string-array>
+    <array name="logo_nav_draw">
+        <item>@drawable/splash_details</item>
+        <item>@drawable/splash_details</item>
+        <item>@drawable/splash_details</item>
+    </array>
+</resources>

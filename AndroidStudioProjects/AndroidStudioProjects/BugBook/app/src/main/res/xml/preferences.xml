@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/PROJECT_NAME"
+        android:title="Project Name"
+        android:summary="enter the project name"
+        android:defaultValue="no_name"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+    <EditTextPreference
+        android:key="@string/TESTER_ID"
+        android:title="Tester ID"
+        android:summary="Of the user"
+        android:defaultValue="@string/TESTER_ID_VALUE"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+</PreferenceScreen>

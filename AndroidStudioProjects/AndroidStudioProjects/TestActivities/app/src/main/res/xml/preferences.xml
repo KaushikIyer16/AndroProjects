@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bugbookc">
+    <EditTextPreference
+        android:key="@string/PROJECT_NAME"
+        android:title="Project Name"
+        android:summary="enter the project name"
+        android:defaultValue="no_name"
+        android:inputType="text"
+        android:singleLine="true"
+        />
+
+</PreferenceScreen>

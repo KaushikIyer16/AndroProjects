@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.example.knsi.bugbook.PostBugsActivity"
+    android:background="@drawable/bugbookc">
+
+    
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionText"
+        android:layout_marginTop="52dp"
+        android:minHeight="60dp"
+        android:width="180dp"
+        android:hint="DESCRIPTION"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#f7e2e4e6"
+        android:textColor="#f7dfe7e9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/functionalityText"
+        android:width="180dp"
+        android:hint="FUNCTIONALITY"
+        android:minHeight="60dp"
+        android:layout_below="@+id/descriptionText"
+        android:layout_alignLeft="@+id/descriptionText"
+        android:layout_alignStart="@+id/descriptionText"
+        android:textColorHint="#f7eaf0ea"
+        android:textColor="#f7dfe7e9" />
+
+    <Spinner
+        android:id="@+id/severity_spinner"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="#f7bbbbbc"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST"
+        android:id="@+id/postButton"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="sToasts"
+        android:textColor="#f7fff6f6" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_marginBottom="42dp"
+        android:minWidth="108dp"
+        android:layout_above="@+id/postButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

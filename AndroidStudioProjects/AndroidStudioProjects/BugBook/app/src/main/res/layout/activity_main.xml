@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".MainActivity"
+    android:background="@drawable/bugbookc">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Bugs"
+        android:id="@+id/PostBugsButton"
+        android:layout_marginBottom="110dp"
+        android:width="180dp"
+        android:minHeight="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="PostBugs"
+        android:textColor="#f7dfe7e9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TESTER ID: "
+        android:id="@+id/textView"
+        android:layout_marginTop="44dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:width="240dp"
+        android:minHeight="85dp"
+        android:textColor="#f7dfe7e9"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/TesterIdValue"
+        android:layout_alignStart="@+id/TesterIdValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TesterIdValue"
+        android:gravity="center_vertical|center_horizontal"
+        android:width="240dp"
+        android:minHeight="85dp"
+        android:textColor="#f7dfe7e9"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

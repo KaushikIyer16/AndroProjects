@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TestActivities</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="PROJECT_NAME">PROJECT NAME</string>
+    <string name="title_activity_preferences">Settings</string>
+    <string name="refresh_action">Refresh</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="title_section1">General Discussion</string>
+    <string name="title_section2">Assignment Discussion</string>
+    <string name="title_section3">About Us</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="title_activity_swipe">SwipeActivity</string>
+    <string name="title_activity_list">Button Test</string>
+</resources>
